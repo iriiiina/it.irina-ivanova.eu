@@ -6,7 +6,6 @@ description: >-
   Programming languages: JavaScript, Python, Bash, HTML, CSS
 baseurl: ""
 url: "http://127.0.0.1:4000"
-source: src
 github_username: iriiiina
 
 # Build settings
