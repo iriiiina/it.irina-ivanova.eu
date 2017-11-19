@@ -1,0 +1,34 @@
+- title: Bug Bash
+  date: 22 May 2015, co-author Alla Tarnovskaja
+  description: Workshop about testing REST services at Nortal TechDay.
+  feedback:
+    - Cool event. Nice and easy app to share experience with co-testers. Created some great discussion between all participants.
+    - Great workshop idea, and great platform for testing. Well delivered.
+  links:
+    - url: https://ivanova-irina.blogspot.com.ee/2015/06/my-first-ever-workshop-at-nortal.html
+      text: Blog post
+
+- title: Biases in Software Testing
+  date: 30 July 2015
+  description: Talk about biases in software testing (in Russian) at Tallinn DevClub.
+  links:
+    - url: https://ivanova-irina.blogspot.com.ee/2015/07/presentation-in-devclub-about-biases-in.html
+      text: Blog post
+    - url: https://www.youtube.com/watch?v=ME4HqzRjjJs
+      text: Video recording
+    - url: https://www.slideshare.net/iiiirina/devclubeu-30072015
+      text: Slides
+
+- title: What Tools to Use to Test Better?
+  date: 15 June 2017
+  description: Workshop about tools for front-end testing at Nortal Summer University.
+  feedback:
+    - I found front-end testing tools part really useful.
+    - Very informative, nicely composed workshop plan.
+  links:
+    - url: https://ivanova-irina.blogspot.com.ee/2017/06/nortal-summer-university-workshop-about.html
+      text: Blog post
+    - url: https://github.com/iriiiina/nsu
+      text: GitHub repo
+    - url: https://www.slideshare.net/iiiirina/what-tools-to-use-to-test-better
+      text: Slides

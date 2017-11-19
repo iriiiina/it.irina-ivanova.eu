@@ -11,7 +11,8 @@ github_username: iriiiina
 # Build settings
 markdown: kramdown
 sass:
-  sass_dir: _sass
+  sass_dir: css
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

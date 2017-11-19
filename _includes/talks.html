@@ -1,5 +1,25 @@
-<section>
-    <h1>Public Talks</h1>
+<section id="talks">
+  <h1 class="section-title">Public Talks</h1>
 
-    <hr/>
+  <div class="container">
+    {% for t in site.data.talks %}
+    <div>
+      <p>{{ t.title }}</p>
+      <p>{{ t.date }}</p>
+      <p>{{ t.description }}</p>
+      {% if t.feedback %}
+        {% for f in t.feedback %}
+          <p>{{ f }}</p>
+        {% endfor %}
+      {% endif %}
+
+      {% if t.links %}
+        {% for l in t.links %}
+          <p><a href="{{ l.url }}">{{ l.text }}</a></p>
+        {% endfor %}
+      {% endif %}
+
+    </div>
+    {% endfor %}
+  </div>
 </section>

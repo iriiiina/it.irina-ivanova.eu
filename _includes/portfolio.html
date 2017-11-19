@@ -1,5 +1,22 @@
-<section>
-    <h1>Portfolio</h1>
+<section id="portfolio">
+  <h1 class="section-title">Portfolio</h1>
 
-    <hr/>
+  <p>I am not a professional software developer, but I do small open source projects from time to time. Mostly they are browser extensions and scripts.</p>
+
+  <div class="container">
+    {% for p in site.data.portfolio %}
+    <div>
+      <p>{{ p.title }}</p>
+      <p>{{ p.short-title }}</p>
+      <p>{{ p.tags }}</p>
+      <p>{{ p.description }}</p>
+      {% for l in p.links %}
+        {% if l.type == "link" %}
+          <p><a href="{{ l.url }}">Link</a></p>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+
 </section>

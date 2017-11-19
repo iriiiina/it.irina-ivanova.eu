@@ -1,5 +1,14 @@
-<section>
-    <h1>References</h1>
+<section id="references">
+  <h1 class="section-title">References</h1>
 
-    <hr/>
+  <div class="container">
+    {% for ref in site.data.references %}
+    <div>
+      <p>{{ ref.author }}</p>
+      <p>{{ ref.position }}</p>
+      <p>{{ ref.feedback }}</p>
+      <p>{{ ref.date }}</p>
+    </div>
+    {% endfor %}
+  </div>
 </section>
