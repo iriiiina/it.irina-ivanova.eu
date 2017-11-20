@@ -3,43 +3,41 @@
 ---
 
 body
-  display: grid
-  grid-template-columns: 100%
-  grid-template-areas: "header" "info" "portfolio" "talks" "references" "interests" "footer"
+  display: flex
+  flex-direction: column
   margin: 0
   padding: 0
   background-color: #EFEFEF
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 
 #header
-  grid-area: header
+  display: none
 
 #info
-  grid-area: info
   text-align: center
 
 #portfolio
-  grid-area: portfolio
   text-align: center
 
 #talks
-  grid-area: talks
   text-align: center
 
-.container
+.flex-container
   display: flex
   justify-content: center
-  flex-direction: column
+  flex-direction: row
+  flex-wrap: wrap
+
+.flex-item
+  max-width: 400px
 
 #references
-  grid-area: references
   text-align: center
 
 #interests
-  grid-area: interests
   text-align: center
 
 #footer
-  grid-area: footer
   text-align: center
   background-color: #475577
   font-size: 16px
@@ -56,9 +54,11 @@ section
 
 a
   text-decoration: none
+  color: #3D8EB9
 
 .section-title
   text-transform: uppercase
+  font-family: Georgia, serif
 
 .footer-link
   color: #54acd2

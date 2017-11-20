@@ -3,9 +3,9 @@
 
   <p>I am not a professional software developer, but I do small open source projects from time to time. Mostly they are browser extensions and scripts.</p>
 
-  <div class="container">
+  <div class="flex-container">
     {% for p in site.data.portfolio %}
-    <div>
+    <div class="flex-item">
       <p>{{ p.title }}</p>
       <p>{{ p.short-title }}</p>
       <p>{{ p.tags }}</p>

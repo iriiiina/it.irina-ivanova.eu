@@ -1,5 +1,6 @@
 .DS_Store
 .idea
 Gemfile.lock
-src/_site
-src/.jekyll-metadata
+_site
+.jekyll-metadata
+css/.sass-cache
