@@ -1,11 +1,11 @@
-<section id="talks">
+<section>
   <h1 class="section-title">Public Talks</h1>
 
   <div class="flex-container">
     {% for t in site.data.talks %}
     <div class="flex-item">
       <p>{{ t.title }}</p>
-      <p>{{ t.date }}</p>
+      <p>{{ t.details }}</p>
       <p>{{ t.description }}</p>
       {% if t.feedback %}
         {% for f in t.feedback %}

@@ -1,39 +1,44 @@
 - title: Browser Extensions
-  short-title: Extensions
   tags: JavaScript
   description: Chrome and Firefox extensions. NB! Some of them are not supported anymore.
+  background-color: rgb(251, 160, 38)
+  color: rgb(255, 255, 255)
   links:
     - url: https://gitlab.com/irina-ivanova-extensions
       type: gitlab
 
-- title: Scripts
-  short-title: ~$ scripts
-  tags: Bash Python
+- title: Bash and Python Scripts
+  tags: Bash, Python
   description: Collection of little helper scripts on Python and Bash to automate some daily jobs
+  background-color: rgb(0, 0, 0)
+  color: rgb(255, 255, 255)
   links:
     - url: https://gitlab.com/irina-ivanova/scripts
       type: gitlab
 
-- title: Version-Updater
-  short-title: version-updater
+- title: Version-Updater Script
   tags: Bash
   description: Bash script for updating Java applications on Tomcat or WebLogic servers
+  background-color: rgb(0, 0, 0)
+  color: rgb(255, 255, 255)
   links:
     - url: https://github.com/iriiiina/version-updater
       type: github
 
 - title: Artha Rahaakadeemia Page
-  short-title: ARTHA
-  tags: HTML5 CSS3 WordPress
+  tags: HTML5, CSS3, WordPress
   description: Responsive page for Artha Rahaakadeemia Foundation as a volunteering work (desiged by Velvet)
+  background-color: rgb(28, 180, 183)
+  color: rgb(252, 209, 54)
   links:
     - url: https://rahaakadeemia.ee
       type: link
 
 - title: Cognitio Liber Blog
-  short-title: Cognitio Liber
-  tags: Jekyll Sass
+  tags: Jekyll, Sass
   description: My personal blog about books (as a physical object) made in Jekyll.
+  background-color: rgb(255, 193, 7)
+  color: rgb(255, 255, 255)
   links:
     - url: http://book.irina-ivanova.eu
       type: link
@@ -41,9 +46,10 @@
       type: github
 
 - title: Portfolio Page
-  short: PORTFOLIO PAGE
-  tags: Jekyll Sass
+  tags: Jekyll, Sass
   description: The repo of this Profile Page with project management staff like issues, milestones, code
+  background-color: rgb(255, 255, 255)
+  color: rgb(243, 121, 25)
   links:
     - url: http://irina-ivanova.eu
       type: link

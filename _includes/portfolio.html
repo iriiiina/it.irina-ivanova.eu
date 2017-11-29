@@ -1,20 +1,23 @@
-<section id="portfolio">
-  <h1 class="section-title">Web Portfolio</h1>
-
-  <p>I am not a professional software developer, but I do small open source projects from time to time. Mostly they are browser extensions and scripts.</p>
+<section>
+  <h1 class="section-title">IT Portfolio</h1>
 
   <div class="flex-container">
     {% for p in site.data.portfolio %}
-    <div class="flex-item">
-      <p>{{ p.title }}</p>
-      <p>{{ p.short-title }}</p>
-      <p>{{ p.tags }}</p>
-      <p>{{ p.description }}</p>
-      {% for l in p.links %}
-        {% if l.type == "link" %}
-          <p><a href="{{ l.url }}">Link</a></p>
-        {% endif %}
-      {% endfor %}
+    <div class="flex-item portfolio-border" style="border-color:{{ p.background-color }}">
+      <p class="portfolio-title" style="background-color:{{ p.background-color }}; color:{{ p.color }};">{{ p.title }}</p>
+      <p class="portfolio-tags">{{ p.tags }}</p>
+      <p class="portfolio-description">{{ p.description }}</p>
+      <div class="portfolio-links">
+        {% for l in p.links %}
+          {% if l.type == "link" %}
+            <a class="portfolio-link" href="{{ l.url }}">{% include svg/link.svg %}</a>
+          {% elsif l.type == "gitlab" %}
+            <a class="portfolio-link" href="{{ l.url }}">{% include svg/gitlab.svg %}</a>
+          {% elsif l.type == "github" %}
+            <a class="portfolio-link" href="{{ l.url }}">{% include svg/github.svg %}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
     {% endfor %}
   </div>
