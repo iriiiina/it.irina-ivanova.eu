@@ -13,6 +13,13 @@ markdown: kramdown
 sass:
   sass_dir: css
   style: compressed
+  sourcemap: none
+
+# Minify HTML
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
 
 # Other
 safe: true
