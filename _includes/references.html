@@ -3,11 +3,11 @@
 
   <div class="flex-container">
     {% for ref in site.data.references %}
-    <div class="flex-item">
-      <p>{{ ref.author }}</p>
-      <p>{{ ref.position }}</p>
+    <div class="flex-item reference">
+      <p class="reference-author">{{ ref.author }}</p>
+      <p class="reference-position">{{ ref.position }}</p>
       <p>{{ ref.feedback }}</p>
-      <p>{{ ref.date }}</p>
+      <p class="reference-date">{{ ref.date }}</p>
     </div>
     {% endfor %}
   </div>

@@ -2,6 +2,8 @@
 
 ---
 
+$color-gray-light: rgb(71, 85, 119)
+
 body
   display: flex
   flex-direction: column
@@ -64,16 +66,16 @@ body
 
 .social-icon svg
   width: 50px
-  fill: rgb(71, 85, 119)
+  fill: $color-gray-light
   margin: 20px 3px 0 3px
 
 #keywords
-  color: rgb(71, 85, 119)
+  color: $color-gray-light
   padding: 20px 0 30px 0
 
 #footer
   text-align: center
-  background-color: rgb(71, 85, 119)
+  background-color: $color-gray-light
   font-size: 16px
   color: rgb(209, 213, 216)
   padding: 30px 0 30px 0
@@ -124,7 +126,27 @@ a
   margin: 10px 5px 10px 5px
   svg
     width: 50px
-    fill: rgb(71, 85, 119)
+    fill: $color-gray-light
+
+.reference
+  text-align: left
+  margin: 5px
+
+.reference-author
+  margin: 0
+  color: $color-gray-light
+
+.reference-position
+  margin: 5px 0 0 0
+  font-style: italic
+  color: $color-gray-light
+
+.reference-date
+  text-align: right
+  font-style: italic
+  color: $color-gray-light
+  border-bottom: 1px solid rgb(209, 213, 216)
+  margin: 10px 0 10px 50px
 
 .footer-link
   color: rgb(84, 172, 210)

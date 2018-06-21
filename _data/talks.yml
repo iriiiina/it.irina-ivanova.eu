@@ -28,7 +28,16 @@
   links:
     - url: https://ivanova-irina.blogspot.com.ee/2017/06/nortal-summer-university-workshop-about.html
       text: Blog post
-    - url: https://github.com/iriiiina/nsu
+    - url: https://github.com/iriiiina/nsu/tree/master/Nortal%20Summer%20University%202017
       text: GitHub repo
     - url: https://www.slideshare.net/iiiirina/what-tools-to-use-to-test-better
+      text: Slides
+
+- title: Getting Started With Web Testing
+  details: 13 June 2018
+  description: 2h workshop for junior testers at Nortal Summer University 2018 about tools for testing front end.
+  links:
+    - url: https://github.com/iriiiina/nsu
+      text: GitHub repo
+    - url: https://www.slideshare.net/iiiirina/getting-started-with-web-testing
       text: Slides
