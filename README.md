@@ -1,3 +1,3 @@
-Profile page of Irina Ivanova.
+Profile page of Irina Ivanova
 
-Playground for React.
+Playground for React
