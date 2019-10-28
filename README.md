@@ -1,3 +1,3 @@
-Profile page of Irina Ivanova
+New profile page of Irina Ivanova
 
-Playground for React
+Old one: https://irina-ivanova.gitlab.io

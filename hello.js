@@ -2,10 +2,11 @@
 
 const e = React.createElement;
 
-class HelloMessage extends React.Component {
-  render() {
-    return 'Hello, React!';
-  }
+function HelloMessage() {
+    return e(
+      'h1',
+      null,
+      'Hello, React!');
 }
 
 ReactDOM.render(
