@@ -5,9 +5,14 @@
     <meta name="description" content="Profile page in Irina Ivanova, experienced software tester and web enthusiast." />
     <meta name="keywords" content="Irina Ivanova, Profile Page, Software Tester, Web Developer, CV">
     <meta name="author" content="Irina Ivanova" />
+    <meta property="og:title" content="Profile Page of Irina Ivanova" />
     <meta property="og:url" content="https://irina-ivanova.eu" />
-		<meta property="og:title" content="Profile Page of Irina Ivanova" />
-		<meta property="og:description" content="Profile page in Irina Ivanova, experienced software tester and web enthusiast." />
+    <meta property="og:description" content="Profile page in Irina Ivanova, experienced software tester and web enthusiast." />
+    <meta property="og:type" content="profile" />
+    <meta property="profile:first_name" content="Irina">
+    <meta property="profile:last_name" content="Ivanova">
+    <meta property="profile:gender" content="female">
+    <meta property="profile:username" content="iiiirina">
 		<!-- <meta property="og:image" content="http://book.irina-ivanova.eu/assets/preview.jpg" /> -->
     <meta property="og:locale" content="en_US" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,7 +39,8 @@
       }
       
       .flex-item {
-        width: 800px;
+        margin-left: 5%;
+        margin-right: 5%;
       }
       
       .references-flex-container {
@@ -52,8 +58,9 @@
       }
       
       .non-it-stuff-flex-container > div {
-        width: 32%;
-        padding-left: 1%;
+        width: 380px;
+        padding-left: 5px;
+        padding-right: 5px;
       }
     </style>
 
@@ -61,7 +68,9 @@
 
   <body>
 
+   
     <!-- Generated with http://patorjk.com/software/taag -->
+     <!-- 
     <pre style="text-align: center;">
  _____ _____  _____ _   _            _______      __     _   _  ______      __     
 |_   _|  __ \|_   _| \ | |   /\     |_   _\ \    / /\   | \ | |/ __ \ \    / /\    
@@ -70,6 +79,15 @@
  _| |_| | \ \ _| |_| |\  |/ ____ \   _| |_   \  / ____ \| |\  | |__| | \  / ____ \ 
 |_____|_|  \_\_____|_| \_/_/    \_\ |_____|   \/_/    \_\_| \_|\____/   \/_/    \_\
     </pre>
+
+    <picture style="margin: 0;">
+      <source media="(min-width: 700px)" srcset="pic/irina-ivanova-horizontal.jpeg">
+      <source media="(min-width: 350px)" srcset="pic/irina-ivanova-vertical.jpeg">
+      <img src="pic/irina-ivanova-horizontal.jpeg" alt="Irina Ivanova" style="width:50%;">
+    </picture>
+  -->
+
+
  
     <div class="flex-container">
       <div class="flex-item" style="text-align: center">
@@ -167,7 +185,7 @@
         <h2 style="text-align: center;">references</h2>
 
         <div class="references-flex-container">
-          <div style="margin: 1%; width: 45%;">
+          <div style="max-width: 500px;">
             <p style="font-weight: bold; margin-bottom: 0px;">Jarno Raid</p>
             <p style="font-size: small; margin-top: 0px;">former project manager at Nortal</p>
             <p style="margin-bottom: 0px;">
@@ -179,7 +197,7 @@
             </p>
             <p style="text-align: right; font-size: small; margin-top: 0px;">November 2017</p>
           </div>
-          <div style="margin: 1%; width: 45%;">
+          <div style="max-width: 500px;">
             <p style="font-weight: bold; margin-bottom: 0px;">Helena Jeret-Mäe</p>
             <p style="font-size: small; margin-top: 0px;">former head on testing at Nortal</p>
             <p style="margin-bottom: 0px;">
@@ -194,7 +212,7 @@
             </p>
             <p style="text-align: right; font-size: small; margin-top: 0px;">September 2017</p>
           </div>
-          <div style="margin: 1%; width: 45%;">
+          <div style="max-width: 500px;">
             <p style="font-weight: bold; margin-bottom: 0px;">Agnes Karlson</p>
             <p style="font-size: small; margin-top: 0px;">
               former CEO at Tartu University Hospital Children's Foundation and
@@ -214,7 +232,7 @@
             </p>
             <p style="text-align: right; font-size: small; margin-top: 0px;">January 2017</p>
           </div>
-          <div style="margin: 1%; width: 45%;">
+          <div style="max-width: 500px;">
             <p style="font-weight: bold; margin-bottom: 0px;">Küllike Saar</p>
             <p style="font-size: small; margin-top: 0px;">
               former CEO at Tartu University Hospital Children's Foundation
@@ -235,19 +253,19 @@
         <h2 style="text-align: center;">non IT stuff</h2>
 
         <div class="non-it-stuff-flex-container">
-          <div style="border-right: 1px dashed black;">
+          <div>
             <p style="font-weight: bold;">Cognitio Liber</p>
             <p>I love books as a physical craft and practice book binding and restoration. Also I am a proud owner of a table-top hand press Adana 8x5.
                 Read about it in my <a href="https://book.irina-ivanova.eu">blog</a> (russian only) or explore pictures on <a href="https://www.instagram.com/cognitioliber/">instagram</a>.
             </p>
           </div>
 
-          <div>
+          <div style="border-right: 1px dashed black; border-left: 1px dashed black;">
             <p style="font-weight: bold;">traveling</p>
             <p>austria | belgia | cambodia | egypt | england | finland | france | greece | indonesia | ireland | italy | latvia | netherlands | poland | portugal | russia | sweden | thailand | turkey | viet nam</p>
           </div>
 
-          <div style="border-left: 1px dashed black;">
+          <div>
             <p style="font-weight: bold;">vinyl passion</p>
             <p>my vinyl records collection on <a href="https://www.discogs.com/user/irina.ivanova">discogs</a>
             </p>
