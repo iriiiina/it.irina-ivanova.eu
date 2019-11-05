@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<title>Profile Page of Irina Ivanova</title>
 <meta name="description" content="Profile page of Irina Ivanova, experienced software tester and web enthusiast">
 <meta name="keywords" content="Irina Ivanova, Profile Page, Software Tester, Web Developer, CV">
 <meta name="author" content="Irina Ivanova">
@@ -16,47 +17,44 @@
 <meta property="profile:gender" content="female">
 <meta property="profile:username" content="iiiirina">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Profile Page of Irina Ivanova</title>
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="manifest.webmanifest">
 <style>
-body {
-  font-family: "Courier New", Courier, monospace;}
+body {font-family: "Courier New", Courier, monospace;}
 @media (min-width: 700px){
-  #header-horizontal{
-    text-align: center;
-    display: block;}
-  #header-vertical{
-    display: none;}}
+  #header-horizontal {text-align: center; display: block;}
+  #header-vertical {display: none;}}
 @media (max-width: 700px){
-  #header-vertical{
+  #header-vertical {
     text-align: center;
     display: block;
     font-size: 10px;}
-  #header-horizontal{
-    display: none;}}
-.flex-container{
+  #header-horizontal {display: none;}}
+#sections {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;}
-.flex-item{
-  margin-left: 5%;
-  margin-right: 5%;}
-.references-flex-container{
+section {margin-left: 5%; margin-right: 5%;}
+section>h1 {text-align: center; line-height: 1.5;}
+#references {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;}
-.non-it-stuff-flex-container{
+#references>div {max-width: 500px;}
+.reference-author {font-weight: bold; margin-bottom: 0px;}
+.reference-title {font-size: small; margin-top: 0px;}
+.reference-date {text-align: right; font-size: small; margin-top: 0px;}
+#non-it-stuff {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;}
-.non-it-stuff-flex-container>div{
+#non-it-stuff>div {
   max-width: 380px;
   padding-left: 5px;
   padding-right: 5px;}
@@ -64,8 +62,7 @@ body {
 </head>
 <body>
 <header>
-<div id="header-horizontal">
-<pre>
+<pre id="header-horizontal">
  _____ _____  _____ _   _            _______      __     _   _  ______      __     
 |_   _|  __ \|_   _| \ | |   /\     |_   _\ \    / /\   | \ | |/ __ \ \    / /\    
   | | | |__) | | | |  \| |  /  \      | |  \ \  / /  \  |  \| | |  | \ \  / /  \   
@@ -73,9 +70,7 @@ body {
  _| |_| | \ \ _| |_| |\  |/ ____ \   _| |_   \  / ____ \| |\  | |__| | \  / ____ \ 
 |_____|_|  \_\_____|_| \_/_/    \_\ |_____|   \/_/    \_\_| \_|\____/   \/_/    \_\
 </pre>
-</div>
-<div id="header-vertical">
-<pre>
+<pre id="header-vertical">
  _____ _____  _____ _   _          
 |_   _|  __ \|_   _| \ | |   /\    
   | | | |__) | | | |  \| |  /  \   
@@ -89,86 +84,87 @@ body {
  _| |_   \  / ____ \| |\  | |__| | \  / ____ \ 
 |_____|   \/_/    \_\_| \_|\____/   \/_/    \_\
 </pre>
-</div>
 </header>
-<div class="flex-container">
- <div class="flex-item" style="text-align: center; max-width: 700px;">
-  <p>I am Irina Ivanova, experienced software tester and web enthusiast. My current job is senior quality assurance specialist at <a href="https://nortal.com">Nortal</a> and higher education is bachelor of science in engineering, <a href="https://www.ut.ee/en">University of Tartu</a>.</p>
-  <p><a href="cv/cv-irina-ivanova-references.pdf" type="application/pdf">download CV.pdf</a></p>
+<main>
+<div id="sections">
+ <section style="text-align: center; max-width: 700px;">
+  <p>I am Irina Ivanova, experienced software tester and web enthusiast. My current job is senior quality assurance specialist at <a href="https://nortal.com" title="Web Page of Nortal Organization">Nortal</a> and higher education is bachelor of science in engineering, <a href="https://www.ut.ee/en" title="Web Page of University of Tartu">University of Tartu</a>.</p>
+  <p><a href="cv/cv-irina-ivanova-references.pdf" title="PDF document With CV" type="application/pdf">download CV.pdf</a></p>
   <p style="line-height: 2;">
-   <a href="https://ivanova-irina.blogspot.com">IT blog</a>
-   <a href="https://github.com/iriiiina">github</a>
-   <a href="https://gitlab.com/irina-ivanova">gitlab</a>
-   <a href="https://www.slideshare.net/iiiirina">slideshare</a>
-   <a href="mailto:irina.ivanova@protonmail.com">email</a></p>
- </div>
- <div class="flex-item">
-  <h1 style="text-align: center; line-height: 1.5;">(•_•)<br>portfolio</h1>
-  <p>- Cognitio Liber blog <span style="font-size: small;">/ <a href="https://book.irina-ivanova.eu">link</a> / <a href="https://github.com/iriiiina/blog-about-books">github</a> / my personal blog about books (as a physical object) made in jekyll</span></p>
-  <p>- Artha <span style="font-size: small;">/ <a href="https://rahaakadeemia.ee">link</a> / web page for Artha Rahaakadeemia Foundation (desiged by Velvet)</span></p>
-  <p>- mm-to-pt <span style="font-size: small;">/ <a href="https://mm-to-pt.irina-ivanova.eu">link</a> / <a href="https://github.com/iriiiina/mm-to-pt">github</a> / online converter of millimetres to typographical points of different standards</span></p>
-  <p>- scripts <span style="font-size: small;">/ <a href="https://github.com/iriiiina/scripts">github</a> / collection of little helper scripts on python and bash to automate some daily jobs</span></p>
-  <p>- version updater <span style="font-size: small;">/ <a href="https://github.com/iriiiina/version-updater">github</a> / bash script for updating java applications on Tomcat or WebLogic servers</span></p>
-  <p>- browser extensions <span style="font-size: small;">/ <a href="https://gitlab.com/irina-ivanova-extensions">gitlab</a> / colleaction of helper extensions for Chrome and FireFox (not supported anymore)</span></p>
-  <p>- this.page <span style="font-size: small;">/ <a href="https://github.com/iriiiina/profile-page">github</a> / this profile page based on KISS idea</span></p>
- </div>
- <div class="flex-item">
-  <h1 style="text-align: center; line-height: 1.5;">(•_•°)<br>public talks</h1>
-  <p>> Getting Started With Web Testing <span style="font-size: small;">/ 13 june 2018 / <a href="https://ivanova-irina.blogspot.com/2018/07/nortal-summer-university-workshop.html">blog post</a> / <a href="https://github.com/iriiiina/nsu">github</a> / <a href="https://www.slideshare.net/iiiirina/getting-started-with-web-testing">slides</a></span></p>
-  <p>> What Tools to Use to Test Better? <span style="font-size: small;">/ 15 june 2017 / <a href="https://ivanova-irina.blogspot.com/2017/06/nortal-summer-university-workshop-about.html">blog post</a> / <a href="https://github.com/iriiiina/nsu/tree/master/Nortal%20Summer%20University%202017">github</a> / <a href="https://www.slideshare.net/iiiirina/what-tools-to-use-to-test-better">slides</a></span></p>
-  <p>> Biases in Software Testing <span style="font-size: small;">/ 30 july 2015 / <a href="https://ivanova-irina.blogspot.com/2015/07/presentation-in-devclub-about-biases-in.html">blog post</a> / <a href="https://www.youtube.com/watch?v=ME4HqzRjjJs">youtube</a> / <a href="https://www.slideshare.net/iiiirina/devclubeu-30072015">slides</a></span></p>
-  <p>> Bug Bash <span style="font-size: small;">/ co-author Alla Tarnovskaja / 22 may 2015 / <a href="https://ivanova-irina.blogspot.com/2015/06/my-first-ever-workshop-at-nortal.html">blog post</a></span></p>
- </div>
- <div class="flex-item">
-  <h1 style="text-align: center; line-height: 1.5;">(⚆_⚆)<br>references</h1>
-  <div class="references-flex-container">
-   <div style="max-width: 500px;">
-    <p style="font-weight: bold; margin-bottom: 0px;">Jarno Raid</p>
-    <p style="font-size: small; margin-top: 0px;">former project manager at Nortal</p>
-    <p style="margin-bottom: 0px;"><span style="font-size: 40px; float: left; line-height: 30px; margin-right: 5px;">«</span>Irina is always up to practice new technologies and gadgets or create something on her own in order to improve results and make life easier. Curiosity going hand in hand with ultimate correctness and ability to dig into the depths most testers wouldn't dare to dream of makes her unique.</p>
-    <p style="text-align: right; font-size: small; margin-top: 0px;">November 2017</p>
+   <a href="https://ivanova-irina.blogspot.com" title="IT Blog on blogspot.com">IT blog</a>
+   <a href="https://github.com/iriiiina" title="Profile on github.com">github</a>
+   <a href="https://gitlab.com/irina-ivanova" title="Profile on gitlab.com">gitlab</a>
+   <a href="https://www.slideshare.net/iiiirina" title="Profile on slideshare.net">slideshare</a>
+   <a href="mailto:irina.ivanova@protonmail.com" title="Email irina.ivanova@protonmail.com">email</a></p>
+ </section>
+ <section>
+  <h1>(•_•)<br>portfolio</h1>
+  <p>- Cognitio Liber blog <small>/ <a href="https://book.irina-ivanova.eu" title="Cognitio Liber Blog">link</a> / <a href="https://github.com/iriiiina/blog-about-books" title="Cognitio Liber Repo on GitHub">github</a> / my personal blog about books (as a physical object) made in jekyll</small></p>
+  <p>- Artha <small>/ <a href="https://rahaakadeemia.ee" title="Web Page of Artha">link</a> / web page for Artha Rahaakadeemia Foundation (desiged by Velvet)</small></p>
+  <p>- mm-to-pt <small>/ <a href="https://mm-to-pt.irina-ivanova.eu" title="Online MM to PT converter">link</a> / <a href="https://github.com/iriiiina/mm-to-pt" title="MM to PP Repo on GitHub">github</a> / online converter of millimetres to typographical points of different standards</small></p>
+  <p>- scripts <small>/ <a href="https://github.com/iriiiina/scripts" title="Scripts' Repo on GitHub">github</a> / collection of little helper scripts on python and bash to automate some daily jobs</small></p>
+  <p>- version updater <small>/ <a href="https://github.com/iriiiina/version-updater" title="Version Updater's Repo on GitHub">github</a> / bash script for updating java applications on Tomcat or WebLogic servers</small></p>
+  <p>- browser extensions <small>/ <a href="https://gitlab.com/irina-ivanova-extensions" title="Collection of Browser Extensions' Repos on GitLab">gitlab</a> / colleaction of helper extensions for Chrome and FireFox (not supported anymore)</small></p>
+  <p>- this.page <small>/ <a href="https://github.com/iriiiina/profile-page" title="Repo of This Profile Page on GitHub">github</a> / this profile page based on KISS idea</small></p>
+ </section>
+ <section>
+  <h1>(•_•°)<br>public talks</h1>
+  <p>> Getting Started With Web Testing <small>/ 13 june 2018 / <a href="https://ivanova-irina.blogspot.com/2018/07/nortal-summer-university-workshop.html" title="Nortal Summer University Workshop 'Getting Started With Web Testing'">blog post</a> / <a href="https://github.com/iriiiina/nsu" title="GitHub Repo With Workshop's Resources">github</a> / <a href="https://www.slideshare.net/iiiirina/getting-started-with-web-testing" title="Slides On SlideShare">slides</a></small></p>
+  <p>> What Tools to Use to Test Better? <small>/ 15 june 2017 / <a href="https://ivanova-irina.blogspot.com/2017/06/nortal-summer-university-workshop-about.html" title="Nortal Summer University Workshop About Tools for Front End Testing">blog post</a> / <a href="https://github.com/iriiiina/nsu/tree/master/Nortal%20Summer%20University%202017" title="GitHub Repo With Workshop's Resources">github</a> / <a href="https://www.slideshare.net/iiiirina/what-tools-to-use-to-test-better" title="Slides On SlideShare">slides</a></small></p>
+  <p>> Biases in Software Testing <small>/ 30 july 2015 / <a href="https://ivanova-irina.blogspot.com/2015/07/presentation-in-devclub-about-biases-in.html" title="Presentation in DevClub About Biases in Testing">blog post</a> / <a href="https://www.youtube.com/watch?v=ME4HqzRjjJs" title="Video Recording on YouTube">youtube</a> / <a href="https://www.slideshare.net/iiiirina/devclubeu-30072015" title="Slides On SlideShare">slides</a></small></p>
+  <p>> Bug Bash <small>/ co-author Alla Tarnovskaja / 22 may 2015 / <a href="https://ivanova-irina.blogspot.com/2015/06/my-first-ever-workshop-at-nortal.html" title="My First Ever Workshop at Nortal TechDay 2015">blog post</a></small></p>
+ </section>
+ <section>
+  <h1>(⚆_⚆)<br>references</h1>
+  <div id="references">
+   <div>
+    <p class="reference-author">Jarno Raid</p>
+    <p class="reference-title">former project manager at Nortal</p>
+    <blockquote>Irina is always up to practice new technologies and gadgets or create something on her own in order to improve results and make life easier. Curiosity going hand in hand with ultimate correctness and ability to dig into the depths most testers wouldn't dare to dream of makes her unique.</blockquote>
+    <p class="reference-date">November 2017</p>
    </div>
-   <div style="max-width: 500px;">
-    <p style="font-weight: bold; margin-bottom: 0px;">Helena Jeret-Mäe</p>
-    <p style="font-size: small; margin-top: 0px;">former head on testing at Nortal</p>
-    <p style="margin-bottom: 0px;"><span style="font-size: 40px; float: left; line-height: 30px; margin-right: 5px;">«</span>Irina is a professional software tester in the best sense of the word. She is continuously developing and broadening her knowledge in testing and technology which makes her an invaluable team member and leader in her own right. Irina is willing to take the time and make the effort to learn new skills, and pass this knowledge on in a team setting or by publishing a blog post. With her calm attitude and considerable technical savvy, she's the one to work with in building quality software.</p>
-    <p style="text-align: right; font-size: small; margin-top: 0px;">September 2017</p>
+   <div>
+    <p class="reference-author">Helena Jeret-Mäe</p>
+    <p class="reference-title">former head on testing at Nortal</p>
+    <blockquote>Irina is a professional software tester in the best sense of the word. She is continuously developing and broadening her knowledge in testing and technology which makes her an invaluable team member and leader in her own right. Irina is willing to take the time and make the effort to learn new skills, and pass this knowledge on in a team setting or by publishing a blog post. With her calm attitude and considerable technical savvy, she's the one to work with in building quality software.</blockquote>
+    <p class="reference-date">September 2017</p>
    </div>
-   <div style="max-width: 500px;">
-    <p style="font-weight: bold; margin-bottom: 0px;">Agnes Karlson</p>
-    <p style="font-size: small; margin-top: 0px;">former CEO at Tartu University Hospital Children's Foundation and former CEO at Artha Rahaadakeemia Foundation</p>
-    <p style="margin-bottom: 0px;"><span style="font-size: 40px; float: left; line-height: 30px; margin-right: 5px;">«</span>Irina Ivanova was a volunteer in Tartu University Hospital Children's Foundation from 2013 to 2014. Irina helped with all day-to-day IT related issues in the organization, but her greatest project was to create platform and prototype for the new homepage according to the visuals provided by creative agency. I am very thankful to Irina for all her time, that she was ready to contribute in the idea to evolve IT area of one of the largest children's oriented foundation in Estonia! If all people would do voluntary work with such commitment as Irina did, then charitable organizations would evolve as common successful organizations!</p>
-    <p style="text-align: right; font-size: small; margin-top: 0px;">January 2017</p>
+   <div>
+    <p class="reference-author">Agnes Karlson</p>
+    <p class="reference-title">former CEO at Tartu University Hospital Children's Foundation and former CEO at Artha Rahaadakeemia Foundation</p>
+    <blockquote>Irina Ivanova was a volunteer in Tartu University Hospital Children's Foundation from 2013 to 2014. Irina helped with all day-to-day IT related issues in the organization, but her greatest project was to create platform and prototype for the new homepage according to the visuals provided by creative agency. I am very thankful to Irina for all her time, that she was ready to contribute in the idea to evolve IT area of one of the largest children's oriented foundation in Estonia! If all people would do voluntary work with such commitment as Irina did, then charitable organizations would evolve as common successful organizations!</blockquote>
+    <p class="reference-date">January 2017</p>
    </div>
-   <div style="max-width: 500px;">
-    <p style="font-weight: bold; margin-bottom: 0px;">Küllike Saar</p>
-    <p style="font-size: small; margin-top: 0px;">former CEO at Tartu University Hospital Children's Foundation</p>
-    <p style="margin-bottom: 0px;"><span style="font-size: 40px; float: left; line-height: 30px; margin-right: 5px;">«</span>Irina was very responsible and agile volunteer. Under her guidance a lot of IT related issues have been solved. Additionally she had high motivation and was very creative and flexible in her actions. Irina is definitely valuable employee.</p>
-    <p style="text-align: right; font-size: small; margin-top: 0px;">February 2017</p>
+   <div>
+    <p class="reference-author">Küllike Saar</p>
+    <p class="reference-title">former CEO at Tartu University Hospital Children's Foundation</p>
+    <blockquote>Irina was very responsible and agile volunteer. Under her guidance a lot of IT related issues have been solved. Additionally she had high motivation and was very creative and flexible in her actions. Irina is definitely valuable employee.</blockquote>
+    <p class="reference-date">February 2017</p>
    </div>
   </div>
- </div>
- <div class="flex-item">
-  <h1 style="text-align: center; line-height: 1.5;">(◠_◠)<br>non IT stuff</h1>
-  <div class="non-it-stuff-flex-container">
+ </section>
+ <section>
+  <h1>(◠_◠)<br>non IT stuff</h1>
+  <div id="non-it-stuff">
    <div>
-    <p style="font-weight: bold;">Cognitio Liber</p>
-    <p>I love books as a physical craft and practice book binding and restoration. Also I am a proud owner of a table-top hand press Adana 8x5. Read about it in my <a href="https://book.irina-ivanova.eu">blog</a> (russian only) or explore pictures on <a href="https://www.instagram.com/cognitioliber/">instagram</a>.</p>
+    <p><b>Cognitio Liber</b></p>
+    <p>I love books as a physical craft and practice book binding and restoration. Also I am a proud owner of a table-top hand press Adana 8x5. Read about it in my <a href="https://book.irina-ivanova.eu" title="Blog Cognitio Liber">blog</a> (russian only) or explore pictures on <a href="https://www.instagram.com/cognitioliber/" title="Instagram @cognitioliber">instagram</a>.</p>
    </div>
    <div style="border-right: 1px dashed black; border-left: 1px dashed black;">
-    <p style="font-weight: bold;">traveling</p>
+    <p><b>traveling</b></p>
     <p>austria . belgia . cambodia . egypt . england . finland . france . greece . indonesia . ireland . italy . latvia . netherlands . poland . portugal . russia . sweden . thailand . turkey . viet nam</p>
    </div>
    <div>
-    <p style="font-weight: bold;">vinyl passion</p>
-    <p>my vinyl records collection on <a href="https://www.discogs.com/user/irina.ivanova">discogs</a></p>
+    <p><b>vinyl passion</b></p>
+    <p>my vinyl records collection on <a href="https://www.discogs.com/user/irina.ivanova" title="Collection of Vinyl Records on Discogs">discogs</a></p>
     <p>home setup: pro-ject essential II (ortofon om 5e mm), onkyo a-9010, wharfedale diamond 220</p>
    </div>
   </div>
- </div>
+ </section>
 </div>
+</main>
 <footer style="text-align: center; margin-top: 100px;">
- <p>Irina&nbsp;Ivanova&nbsp;2017&nbsp;-&nbsp;2019 | <a href="tel:+37255564154">+372&nbsp;555&nbsp;64154</a> | <a href="mailto:irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
+ <p>Irina&nbsp;Ivanova&nbsp;2017&mdash;2019 | <a href="tel:+37255564154" title="Mobile Number +37255564154">+372&nbsp;555&nbsp;64154</a> | <a href="mailto:irina.ivanova@protonmail.com" title="Email irina.ivanova@protonmail.com">irina.ivanova@protonmail.com</a></p>
 </footer>
 </body>
 </html>
