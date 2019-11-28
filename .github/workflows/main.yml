@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Link Checker
-      uses: peter-evans/link-checker@v1.0.1
+    - name: Check URLs
+      uses: paramt/url-checker@master
+      with:
+        files: "index.html,README.md"
+        blacklist: "blogspot.com,github.com,gitlab.com,slideshare.net,this.page"
