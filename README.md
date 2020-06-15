@@ -2,7 +2,7 @@
 
 ## General
 
-Profile page of Irina Ivanova: https://irina-ivanova.eu
+IT portfolio page of Irina Ivanova: https://it.irina-ivanova.eu
 
 ## Used Tools
 
