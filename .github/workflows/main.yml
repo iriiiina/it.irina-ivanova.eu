@@ -12,4 +12,4 @@ jobs:
       uses: paramt/url-checker@master
       with:
         files: "index.html,README.md"
-        blacklist: "blogspot.com,github.com,gitlab.com,slideshare.net,this.page,https://nortal.com,http://patorjk.com"
+        blacklist: "blogspot.com,github.com,gitlab.com,slideshare.net,this.page,https://nortal.com,http://patorjk.com/software/taag"
