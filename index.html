@@ -44,12 +44,22 @@
       #header-vertical {
         text-align: center;
         display: block;
-        font-size: 10px;
+        font-size: 1em;
       }
 
       #header-horizontal {
         display: none;
       }
+    }
+
+    #description {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    #description-links {
+      line-height: 2;
     }
 
     main {
@@ -62,7 +72,7 @@
 
     .smile {
       text-align: center;
-      font-size: 24px;
+      font-size: 2em;
       font-weight: bold;
       margin-bottom: 0;
     }
@@ -72,15 +82,15 @@
       margin-right: 5%;
     }
 
-    section h1 {
+    section h2 {
       text-align: center;
       line-height: 1.5;
-      margin-top: 2px;
+      margin-top: 0.5em;
     }
 
-    h2 {
+    h3 {
       margin-bottom: 0px;
-      font-size: 16px;
+      font-size: 1.2em;
     }
 
     #references {
@@ -114,8 +124,18 @@
 
     #non-it-stuff div {
       max-width: 380px;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    #travelling {
+      border-right: 1px dashed black;
+      border-left: 1px dashed black;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 100px;
     }
   </style>
 </head>
@@ -144,7 +164,7 @@
  _| |_   \  / ____ \| |\  | |__| | \  / ____ \ 
 |_____|   \/_/    \_\_| \_|\____/   \/_/    \_\
 </pre>
-    <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+    <div id="description">
       <p itemprop="description">I am Irina Ivanova, experienced software tester and web enthusiast. My current job is
         senior quality assurance
         specialist at <a href="https://nortal.com" title="Web Page of Nortal Organization" hreflang="en">Nortal</a> and
@@ -155,7 +175,7 @@
       <p><a href="cv/cv-irina-ivanova.pdf" title="PDF document With CV" type="application/pdf" hreflang="en"
           itemprop="sameAs">download CV
           (pdf, 83kb)</a></p>
-      <p style="line-height: 2;">
+      <p id="description-links">
         <a href="https://ivanova-irina.blogspot.com" title="IT Blog on blogspot.com" hreflang="en" itemprop="sameAs">IT
           blog</a>
         <a href="https://github.com/iriiiina" title="Profile on github.com" hreflang="en" itemprop="sameAs">github</a>
@@ -173,7 +193,7 @@
   <main>
     <section itemscope itemtype="https://schema.org/Collection">
       <p class="smile">(•_•)</p>
-      <h1>IT portfolio</h1>
+      <h2>IT portfolio</h2>
       <p itemscope itemtype="https://schema.org/WebPage">- <span itemprop="name">this.page</span> <small>/ <a
             href="https://github.com/iriiiina/it.irina-ivanova.eu" title="Repo of This Profile Page on GitHub"
             hreflang="en" itemprop="significantLink">github</a> / <span itemprop="abstract">this profile page based on
@@ -211,7 +231,7 @@
     </section>
     <section itemscope itemtype="https://schema.org/Collection">
       <p class="smile">(•_•°)</p>
-      <h1>public talks</h1>
+      <h2>public talks</h2>
       <p itemscope itemtype="https://schema.org/Event">> <span itemprop="name">AssertJ - Personal Experience</span>
         <small>/ 18 march 2024 / <a href="https://github.com/iriiiina/assertj-demo"
             title="GitHub Repo With Demo Resources" hreflang="en" itemprop="url">github</a></small>
@@ -251,10 +271,10 @@
     </section>
     <section itemscope itemtype="https://schema.org/Collection">
       <p class="smile">(⚆_⚆)</p>
-      <h1>references</h1>
+      <h2>references</h2>
       <div id="references">
         <div itemscope itemtype="https://schema.org/Quotation">
-          <h2 itemprop="author">Jarno Raid</h2>
+          <h3 itemprop="author">Jarno Raid</h3>
           <p class="reference-title">former project manager at Nortal</p>
           <blockquote itemprop="text">Irina is always up to practice new technologies and gadgets or create something on
             her own in
@@ -263,7 +283,7 @@
           <p class="reference-date" itemprop="datePublished">November 2017</p>
         </div>
         <div itemscope itemtype="https://schema.org/Quotation">
-          <h2 itemprop="author">Helena Jeret-Mäe</h2>
+          <h3 itemprop="author">Helena Jeret-Mäe</h3>
           <p class="reference-title">former head on testing at Nortal</p>
           <blockquote itemprop="text">Irina is a professional software tester in the best sense of the word. She is
             continuously
@@ -274,7 +294,7 @@
           <p class="reference-date" itemprop="datePublished">September 2017</p>
         </div>
         <div itemscope itemtype="https://schema.org/Quotation">
-          <h2 itemprop="author">Agnes Karlson</h2>
+          <h3 itemprop="author">Agnes Karlson</h3>
           <p class="reference-title">former CEO at Tartu University Hospital Children's Foundation and former CEO at
             Artha Rahaadakeemia Foundation</p>
           <blockquote itemprop="text">Irina Ivanova was a volunteer in Tartu University Hospital Children's Foundation
@@ -288,7 +308,7 @@
           <p class="reference-date" itemprop="datePublished">January 2017</p>
         </div>
         <div itemscope itemtype="https://schema.org/Quotation">
-          <h2 itemprop="author">Küllike Saar</h2>
+          <h3 itemprop="author">Küllike Saar</h3>
           <p class="reference-title">former CEO at Tartu University Hospital Children's Foundation</p>
           <blockquote itemprop="text">Irina was very responsible and agile volunteer. Under her guidance a lot of IT
             related issues have
@@ -300,23 +320,23 @@
     </section>
     <section itemscope itemtype="https://schema.org/Collection">
       <p class="smile">(◠_◠)</p>
-      <h1>non IT stuff</h1>
+      <h2>non IT stuff</h2>
       <div id="non-it-stuff">
         <div>
-          <h2>street library</h2>
+          <h3>street library</h3>
           <p>i love books and i love urban design, so i've founded a local street library near my home. i also manage
             its' instagram account <a href="https://www.instagram.com/kvissentali_tanavaraamatukogu"
               title="Instagram @kvissentali_tanavaraamatukogu" hreflang="et">@kvissentali_tanavaraamatukogu</a> where
             local community can find out about refills and tiny events that are happening here.</p>
         </div>
-        <div style="border-right: 1px dashed black; border-left: 1px dashed black;">
-          <h2>travelling</h2>
+        <div id="travelling">
+          <h3>travelling</h3>
           <p>austria . belgia . cambodia . egypt . england . finland . france . germany . greece . indonesia . ireland .
             italy . latvia . netherlands . poland . portugal . russia . spain . sweden . thailand . turkey . viet nam
           </p>
         </div>
         <div>
-          <h2>vinyl passion</h2>
+          <h3>vinyl passion</h3>
           <p>my vinyl records collection on <a href="https://www.discogs.com/user/irina.ivanova"
               title="Collection of Vinyl Records on Discogs" hreflang="en">discogs</a></p>
           <p>home setup: tuned pro-ject essential II (audio-technica at150mlx mm), custom <a
@@ -326,7 +346,7 @@
       </div>
     </section>
   </main>
-  <footer style="text-align: center; margin-top: 100px;">
+  <footer>
     <p itemscope itemtype="https://schema.org/Person"><span
         itemprop="name">Irina&nbsp;Ivanova</span>&nbsp;2017&mdash;2024 | <a href="tel:+37255564154"
         title="Mobile Number +37255564154"><span itemprop="telephone">+372&nbsp;555&nbsp;64154</span></a> | <a
