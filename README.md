@@ -8,5 +8,6 @@ IT portfolio page of Irina Ivanova: https://it.irina-ivanova.eu
 
 * KISS (Keep It Simple, Stupid)
 * TeX for CV
-* Favicon generator: https://favicon.io/favicon-converter/
+* Favicon generator: https://favicon.io/favicon-converter
 * Header generator: http://patorjk.com/software/taag
+* Schema Validator https://validator.schema.org
